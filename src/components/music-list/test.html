@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style type="text/css">
+    #mydiv {
+      height: 0px;
+      width: 0px;
+      border-top: 100px solid pink;
+      border-left: 50px solid yellow;
+      border-right: 50px solid blue;
+      border-bottom: 100px solid red;
+    }
+
+    #mydiv:hover + .test {
+      width: 100px;
+      height: 200px;
+      background: black;
+    }
+  </style>
+</head>
+
+<body>
+<div id="mydiv"></div>
+<div class="test"></div>
+</body>
+</html>
